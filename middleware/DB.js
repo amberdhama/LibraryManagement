@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const user1 = "amber";
-const pass1 = "amberdhama";
-const dbName = "Library";
+const user1 = "YourUserName";
+const pass1 = "YourPassWord";
+const dbName = "DatabaseName";
 const uri = `mongodb+srv://${user1}:${pass1}@notcluster.1hqnl07.mongodb.net/${dbName}?retryWrites=true&w=majority&appName=notCluster`;
 
 async function connectDB() {
